@@ -20,7 +20,6 @@ int main() {
 	
 	cout << "Masukkan nama buku yang dicari: ";
 	getline(cin, cari);
-	cout << "Yang Dicari: ["<< cari << "]" << endl;
 	
 	cout << "=== PILIH METODE PENCARIAN BUKU ===" << endl;
 	cout << "1. Sequential Search." << endl;
@@ -78,3 +77,4 @@ int main() {
 }
 	
 	
+
