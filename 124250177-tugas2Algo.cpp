@@ -17,6 +17,12 @@ int main() {
 	
 	string cari;
 	int pilihan;
+
+	cout << "=== DAFTAR BUKU TERSEDIA ===" << endl;
+	for(int i = 0; i < 5; i++){
+		cout << i+1 << ". " << dataBuku[i].nama << endl;
+	}
+	cout << "============================" << endl << endl;
 	
 	cout << "Masukkan nama buku yang dicari: ";
 	getline(cin, cari);
@@ -77,4 +83,5 @@ int main() {
 }
 	
 	
+
 
